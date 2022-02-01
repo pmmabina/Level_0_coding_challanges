@@ -1,7 +1,7 @@
 def maximum(*numbers):
-    a = 0
+    a = numbers[0]
     for i in numbers:
         if i > a:
             a = i
     return a
-print(maximum(1, 22, 3, 2))
+print(maximum(-1, -22, 0, 5))
