@@ -1,8 +1,8 @@
 def check_vowels(string):
     vowels = ["a", "e", "i" ,"o" ,"u","A", "E", "I", "O", "U"]
     list = ""
-    for i in string:
-        if i in list.lower():
+    for i in string.lower():
+        if i in list:
             pass
         elif i in vowels:
             list += i
