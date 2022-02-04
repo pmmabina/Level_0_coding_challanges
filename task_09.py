@@ -1,10 +1,10 @@
 def check_vowels(string):
     vowels = ["a", "e", "i" ,"o" ,"u","A", "E", "I", "O", "U"]
-    list = ""
+    found_vowels = ""
     for letters in string.lower():
-        if letters in list:
+        if letters in found_vowels:
             pass
         elif letters in vowels:
-            list += letters
-    print("Vowels: " + ', '.join(list))
-check_vowels("UMUZI")
+            found_vowels += letters
+    print("Vowels: " + ', '.join(found_vowels))
+check_vowels("Umuzi")
